@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class PageController {
-	@RequestMapping ("/viral")
+	@RequestMapping ("/viral2jari")
 	public String index()
 	{
 		return "viral";
